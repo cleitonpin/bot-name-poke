@@ -1,0 +1,25 @@
+{
+  "name": "bot-name-poke",
+  "version": "1.0.0",
+  "description": "bot to search the collection of the pokemon and bring his name (not 100%)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleitonpin/bot-name-poke.git"
+  },
+  "author": "cleiton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleitonpin/bot-name-poke/issues"
+  },
+  "homepage": "https://github.com/cleitonpin/bot-name-poke#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2"
+  }
+}
