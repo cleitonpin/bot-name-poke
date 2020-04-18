@@ -19,13 +19,9 @@ nameOfPokemon = (message, client, url) => {
 
     
     request(options,(_err,_res,body)=>{
-        client.channels.cache.get(message.channel.id)
-            .send(
-                `${body.best_guess}`
-        )
-        if(message.channel.id !== "589611252897284098"){
-            message.delete({ timeout: 5000 })
-        }
+        client.channels.cache.get(message.channel.id).send(`${body.best_guess}`)
+
+
         console.log(body.best_guess);
     })
 
